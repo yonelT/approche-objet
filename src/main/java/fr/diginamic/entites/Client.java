@@ -21,4 +21,33 @@ public class Client {
 		this.adresse = adresse;
 	}
 
+	public void affichPreNomMaj() {
+		System.out.println(this.prenom);
+		System.out.println(this.nom.toUpperCase());
+	}
+
+	public void modifNom(String pNom) {
+		this.nom = pNom;
+	}
+
+	public void modifPrenom(String pPrenom) {
+		this.prenom = pPrenom;
+	}
+
+	public void modifNumCompte(int numCompte) {
+		this.numeroCompte = numCompte;
+	}
+
+	public String recupPrenom() {
+		return this.prenom;
+	}
+
+	public String recupNom() {
+		return this.nom;
+	}
+
+	public int recupNumCompte() {
+		return this.numeroCompte;
+	}
+
 }
