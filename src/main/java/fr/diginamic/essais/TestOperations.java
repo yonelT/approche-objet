@@ -1,4 +1,6 @@
-package fr.diginamic.operations;
+package fr.diginamic.essais;
+
+import fr.diginamic.operations.Operations;
 
 public class TestOperations {
 
