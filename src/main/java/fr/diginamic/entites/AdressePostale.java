@@ -5,7 +5,7 @@ public class AdressePostale {
 	private String libelleRue;
 	private int codePostale;
 	private String ville;
-	private int nbDepartements = 103;
+	public int nbDepartements = 103;
 
 	public AdressePostale(int numeroRue, String libelleRue, int codePostale, String ville) {
 		this.numeroRue = numeroRue;
