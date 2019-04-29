@@ -21,8 +21,8 @@ public class Maison implements ISurface {
 		int i = 0;
 
 		for (i = 0; i < piec.length; i++) {
-			if (choixEtage == this.piec[i].numEtage) {
-				superficieEtage = superficieEtage + this.piec[i].superficie;
+			if (choixEtage == this.piec[i].getNumEtage()) {
+				superficieEtage = superficieEtage + this.piec[i].getSuperficie();
 			}
 		}
 
@@ -34,7 +34,7 @@ public class Maison implements ISurface {
 		int i;
 
 		for (i = 0; i < piec.length; i++) {
-			superficieTot = superficieTot + this.piec[i].superficie;
+			superficieTot = superficieTot + this.piec[i].getSuperficie();
 		}
 
 		return superficieTot;
