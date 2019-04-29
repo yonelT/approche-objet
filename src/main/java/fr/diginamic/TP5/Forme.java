@@ -1,6 +1,8 @@
 package fr.diginamic.TP5;
 
-public abstract class Forme {
+import fr.diginamic.TP6.ISurface;
+
+public abstract class Forme implements ISurface {
 
 	public Forme() {
 

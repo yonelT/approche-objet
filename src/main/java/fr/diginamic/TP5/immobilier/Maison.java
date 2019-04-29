@@ -1,6 +1,8 @@
 package fr.diginamic.TP5.immobilier;
 
-public class Maison {
+import fr.diginamic.TP6.ISurface;
+
+public class Maison implements ISurface {
 	Piece[] piec;
 	int i;
 
@@ -27,7 +29,7 @@ public class Maison {
 		return superficieEtage;
 	}
 
-	public double superficieTotal() {
+	public double calculerSurface() {
 		double superficieTot = 0;
 		int i;
 
