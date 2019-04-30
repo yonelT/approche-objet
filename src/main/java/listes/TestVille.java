@@ -55,8 +55,17 @@ public class TestVille {
 			Ville val = iter.next();
 			if (val.getNom().equals(nomDuMin)) {
 				iter.remove();
+				System.out.println("Elle a été supprimer de la liste");
 
 			}
+		}
+
+		for (Ville var : liste) {
+			if (var.getNbHab() > 100000) {
+				var.setNom(var.getNom().toUpperCase());
+				System.out.println(var.getNom());
+			}
+
 		}
 
 	}
